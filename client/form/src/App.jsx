@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';  // Import Link along with Routes and Route
 import Login from './login';  // Corrected import path
-
+import Signup from'./signup';
 const App = () => {
   return (
     <div>
@@ -21,6 +21,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<div>Home Page</div>} />  {/* Home page route */}
         <Route path="/login" element={<Login />} />      {/* Login page route */}
+        <Route path="/signup" element={<Signup />} />      {/* Login page route */}
       </Routes>
     </div>
   );
