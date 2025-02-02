@@ -11,6 +11,9 @@ const App = () => {
           <li>
             <Link to="/login">Go to Login</Link>  {/* Link to /login */}
           </li>
+          <li>
+            <Link to="/signup">Go to Signup</Link>  {/* Link to /login */}
+          </li>
         </ul>
       </nav>
 
